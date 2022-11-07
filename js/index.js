@@ -32,6 +32,5 @@ function getDate () {
 
     // Let's put it on the display
     timer.textContent = time
-    setTimeout(getDate, 1000)
 }
-getDate()
+setInterval(getDate, 1000)
